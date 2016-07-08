@@ -1299,6 +1299,10 @@ DUMMY
 T;
 &M2X ' T3 SETTASK
 : 0_0
+
+1 LINE.NUM
+  0  
+  ^ChartStatus @!   
 1 JUMP ;
 : 0_10
 
@@ -1905,7 +1909,7 @@ CONFIG_PORTS
  *strRecvData $MOVE
 " sdcard0/Recipes"
  *strSetupDataDir $MOVE
-" 1.6"
+" 1.7"
  *strSoftwareRevision $MOVE
 " "
  *ch_SetupFile $MOVE
@@ -1920,9 +1924,9 @@ T;
    CLEARERRORS
    &_INIT_IO START.T DROP
    ;
-: DATESTAMP ." 06/07/16 " ;
-: TIMESTAMP ." 15:39:10 " ;
-: CRCSTAMP  ." E367921E5B0B0652971C5E3CB1A01F78 " ;
+: DATESTAMP ." 07/08/16 " ;
+: TIMESTAMP ." 14:50:42 " ;
+: CRCSTAMP  ." B088EC0AC6617579A9A537792A98AFAA " ;
 MAKECHECK
 CLEAR.BREAKS
 
